@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+
+  <title>shopping list</title>
+
+  <!-- load stylesheets -->
+  <link rel="stylesheet"
+        href="../components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/shopping-list.css">
+
+</head>
+<body>
+  <div class="shopping-list">
+
+    <h1>shopping list</h1>
+
+    <div class="header">
+      <div class="item-counter" data-value="0">0</div>
+      <form class="new-item">
+        <input class="new-item-name" type="text" placeholder="item name">
+        <input class="new-item-quantity" type="text" placeholder="qty">
+        <button type="submit" class="submit-item btn btn-primary btn-xs">
+          <span class="glyphicon glyphicon-send"></span>
+        </button>
+      </form>
+    </div>
+
+    <ul class="item-list list-group">
+      <li class="item list-group-item">
+        <input type="checkbox" class="item-done">
+        <div class="item-name">Samsung Galaxy Note</div>
+        <div class="item-quantity">1</div>
+        <button class="delete-item btn btn-danger btn-xs">
+          <span class="glyphicon glyphicon-remove"></span>
+        </button>
+      </li>
+
+      <li class="item list-group-item">
+        <input type="checkbox" class="item-done">
+        <div class="item-name">4K TV</div>
+        <div class="item-quantity">2</div>
+        <button class="delete-item btn btn-danger btn-xs">
+          <span class="glyphicon glyphicon-remove"></span>
+        </button>
+      </li>
+    </ul>
+  <div>
+
+  <!-- load libraries -->
+
+  <!-- load application -->
+  <script src="js/shopping-list-app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "shopping-app",
+  "version": "0.0.0",
+  "authors": [
+    "Johannes Erber <Hannes_E@gmx.de>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.0"
+  }
+}
